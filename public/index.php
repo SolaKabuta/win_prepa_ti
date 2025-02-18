@@ -8,20 +8,20 @@ if(isset($_GET['p'])){
     switch($_GET['p']){
         case "apropos":
             $title = "apropos";
-            include "../view/aproposView.php";
+            include "../templates/aproposView.php";
             break;
         case "histoire":
             $title = "histoire";
-            include "../view/histoireView.php";
+            include "../templates/histoireView.php";
             break;
         case "contact":
             $title = "contact";
-            include "../view/contactView.php";
+            include "../templates/contactView.php";
             break;
         default:
             $title = "error404";
-            include "../view/erreur404View.php";
+            include "../templates/erreur404View.php";
     }
 }else {
-    include "../view/accueilView.php";
+    include "../templates/accueilView.php";
 }
