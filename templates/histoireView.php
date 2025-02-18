@@ -17,7 +17,7 @@
     <main>
         <div class="img-container">
             <img src="img/flag.jfif" alt="american flag pic">
-            <img src="" alt="">
+            <img src="img/lunch.jfif" alt="">
             <img src="" alt="">
         </div>
     </main>
