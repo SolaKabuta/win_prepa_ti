@@ -18,7 +18,7 @@
         <div class="img-container">
             <img src="img/flag.jfif" alt="american flag pic">
             <img src="img/lunch.jfif" alt="">
-            <img src="" alt="">
+            <img src="img/kent-massacre.jfif" alt="">
         </div>
     </main>
     <footer>
