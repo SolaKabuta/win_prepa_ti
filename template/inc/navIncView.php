@@ -3,5 +3,8 @@
 ?>
 
 <ul>
-    <li><a href=""></a><a href=""></a><a href=""></a><a href=""></a></li>
+    <li><a href="./?p=accueil">Accueil</a></li>
+    <li><a href="./?p=apropos">Apropos</a></li>
+    <li><a href="./?p=histoire">Histoire</a></li>
+    <li><a href="./?p=contact">Contact</a></li>
 </ul>
