@@ -6,13 +6,13 @@
 if(isset($_GET['p'])){
 
     switch($_GET['p']){
-        case "projects":
-            $title = "projects";
-            include "../view/projectsView.php";
+        case "apropos":
+            $title = "apropos";
+            include "../view/aproposView.php";
             break;
-        case "about":
-            $title = "about";
-            include "../view/aboutView.php";
+        case "histoire":
+            $title = "histoire";
+            include "../view/histoireView.php";
             break;
         case "contact":
             $title = "contact";
@@ -20,8 +20,8 @@ if(isset($_GET['p'])){
             break;
         default:
             $title = "error404";
-            include "../view/error404View.php";
+            include "../view/erreur404View.php";
     }
 }else {
-    include "../view/homepageView.php";
+    include "../view/accueilView.php";
 }
